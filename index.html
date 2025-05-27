@@ -9,97 +9,76 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(180deg, #0A0D0F, #0B0E10);
-      color: #ffffff;
+      background: linear-gradient(160deg, #0A0D10, #1A1E22);
+      color: #EDEDED;
       display: flex;
       justify-content: center;
       align-items: center;
       min-height: 100vh;
-      text-align: center;
-      padding: 40px 16px;
+      padding: 40px 20px;
     }
     .container {
+      text-align: center;
       max-width: 600px;
     }
     .logo img {
-      width: 320px;
+      width: 240px;
       max-width: 100%;
       height: auto;
       margin-bottom: 32px;
     }
     h1 {
-      font-size: 32px;
+      font-size: 28px;
       margin-bottom: 16px;
-      font-weight: bold;
+      font-weight: 700;
     }
     p {
       font-size: 16px;
-      line-height: 1.6;
       margin-bottom: 24px;
-      color: #dcdcdc;
+      line-height: 1.6;
     }
     .button {
-      background-color: #D4AF37;
-      color: #0A0D0F;
-      border: none;
+      background-color: #C5A45E;
+      color: #0A0D10;
       padding: 14px 28px;
       font-size: 16px;
       font-weight: bold;
+      border: none;
       border-radius: 8px;
       cursor: not-allowed;
-      margin: 16px 0 32px;
+      margin-bottom: 32px;
       display: inline-block;
+    }
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      font-size: 24px;
+      margin-top: 24px;
+    }
+    .social-icons a {
+      color: #C5A45E;
       text-decoration: none;
+      transition: transform 0.2s;
     }
-    ul {
-      text-align: left;
-      padding-left: 20px;
-      margin-bottom: 24px;
-    }
-    ul li {
-      margin-bottom: 10px;
-    }
-    ul li::marker {
-      color: #D4AF37;
-    }
-    blockquote {
-      color: #bbb;
-      font-style: italic;
-      border-left: 4px solid #D4AF37;
-      padding-left: 12px;
-      margin: 12px 0;
-    }
-    .faq-questions strong {
-      color: #D4AF37;
+    .social-icons a:hover {
+      transform: scale(1.15);
     }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="logo">
-      <img src="Logo_Only.png" alt="AlphaPulls logo" />
+      <img src="Logo_Only.png" alt="AlphaPulls Logo">
     </div>
     <h1>Turn Your Hobby into Profit in 30 Days</h1>
-    <p>Master the secrets of Pokémon card investing, without hype, guesswork, or gambling.</p>
-    <a class="button">Coming Soon</a>
-
-    <h2>What You’ll Learn</h2>
-    <ul>
-      <li>Identify undervalued cards like a pro</li>
-      <li>Buy, flip, and grade using a proven roadmap</li>
-      <li>Track and grow a real portfolio</li>
-      <li>No massive investments needed</li>
-    </ul>
-
-    <blockquote>
-      “Bought my first PSA 10 for under $30. The Flip Tracker alone was worth it.”
-    </blockquote>
-    <blockquote>
-      “Gained confidence, and made $260 profit in just 2 weeks.”
-    </blockquote>
-
-    <h2>FAQs</h2>
-    <p><strong>1. Do I need a lot of money?</strong><br>No, start with as little as $50 and flip upwards.</p>
+    <p>Learn how to invest in Pokémon cards — the smart way. No hype. No guesswork. Just proven strategies to help you make your first profitable flip.</p>
+    <div class="button">Coming Soon</div>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/alphapulls" target="_blank" aria-label="Instagram">📸</a>
+      <a href="https://www.tiktok.com/@alphapulls" target="_blank" aria-label="TikTok">🎵</a>
+      <a href="https://www.youtube.com/@alphapulls" target="_blank" aria-label="YouTube">▶️</a>
+    </div>
   </div>
 </body>
 </html>
